@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Open Infrastructure Orbit
-logo: /images/oioss-text.svg
+logo: /images/OIO_36c3.svg
 email: 35c3-orga@freifunk.space
 description: >- # this means to ignore newlines until "baseurl:"
   Der Open Infrastructure Orbit bietet allen Vereinigungen rund um das Thema “Offene Infrastruktur” die Möglichkeit, ihre Projekte und Konzepte zu präsentieren und sich miteinander auszutauschen.
@@ -38,6 +38,26 @@ plugins:
   - jekyll-include-cache
 search: true
 
+# Site Author
+author:
+ # name             : *name # *name is a YAML reference pointing to the &anchor earlier
+ # avatar           : "/images/OIO.svg"
+  location         : "Leipzig, Messe, Halle 2"
+  links:
+    - label: "oio.socal"
+      icon: "fas fa-fw fa-link"
+      url: "https://oio.social"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/openinfraorbit"
+    - label: "Rocket"
+      icon: "fab fa-fw fa-rocketchat"
+      url: "https://rocket.events.ccc.de/channel/open-infrastructure-orbit"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/openinfrastructureorbit"
+
+
 defaults:
   # _posts
   - scope:
@@ -45,14 +65,14 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: false
+      author_profile: true
   # _pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
-      author_profile: false
+      author_profile: true
   # _news
   - scope:
       path: ""
@@ -84,3 +104,4 @@ include: ["_pages"]
 #   - vendor/gems/
 #   - vendor/ruby/
 exclude: [vendor]
+
