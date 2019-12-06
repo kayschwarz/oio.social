@@ -38,6 +38,13 @@ plugins:
   - jekyll-include-cache
 search: true
 
+languages: ["de", "en"]
+exclude_from_localizations: ["assets", "CNAME"]
+defaultLang: de
+languageNames:
+  de: DE
+  en: EN
+
 defaults:
   # _posts
   - scope:

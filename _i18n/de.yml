@@ -1,0 +1,14 @@
+site:
+  name: Open Inftrastructure Orbit
+  tagline: der sichere Hafen für alle Gruppen, Institutionen und Individuen die sich mit offener Infrastruktur befassen
+  description: :der sichere Hafen für alle Gruppen, Institutionen und Individuen die sich mit offener Infrastruktur befassen
+  keywords: OIO, 36c3, 35c3
+
+main:
+  welcomeSection:
+    anchor: About
+    heading: Willkommen auf dieser tollen Webseite!
+    p1: Hunderttausende Menschen sind von dieser Seite begeistert. Sie auch?
+
+pages:
+    about: Über
