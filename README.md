@@ -22,6 +22,9 @@ gem install jekyll bundler
 bundle exec jekyll serve
 ```
 
-MULTILANG
-=========
+Jekyll - Multilang
+=================
+
+inspired by [https://forestry.io/blog/creating-a-multilingual-blog-with-jekyll/](https://forestry.io/blog/creating-a-multilingual-blog-with-jekyll/)
 https://www.klaasnotfound.com/2017/02/16/proper-multilingual-site-with-github-pages-and-jekyll/
+
